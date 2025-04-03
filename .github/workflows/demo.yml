@@ -5,9 +5,9 @@ jobs:
     explore-github-actions:
         runs-on: Ubuntu-latest
         steps:
-            - name: welcome
+            - name: Welcome
               run: echo "demo is running on ${{runner.os}}, the repository is ${{github.repository}}, the branch is ${{github.ref}}, is trigger by ${{github.event_name}} event"
-            - name: checkout
+            - name: Checkout
               uses: actions/checkout@v4
-            - name: list files
+            - name: List files
               run: ls ${{github.workspace}}
