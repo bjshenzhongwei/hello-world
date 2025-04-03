@@ -1,6 +1,6 @@
 name: doc lint
 on:
-    pull_request:
+    push:
         branches: [main]
         paths:
             - '*.md'

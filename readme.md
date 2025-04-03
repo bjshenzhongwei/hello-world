@@ -1,1 +1,1 @@
-this repository contains code of hello word about eveny thing!
+this repositorry contains code of hello word about eveny thing!
