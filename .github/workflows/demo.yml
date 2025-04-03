@@ -1,0 +1,12 @@
+name: demo
+run-name: ${{github.actor}} is testing out Github Actions
+on: push
+jobs:
+    Explore-Github-Actions:
+        runs-on: Ubuntu-latest
+        steps:
+            - run: echo "demo is running on ${{runner.os}}, the repository is ${{github.repository}}, the branch is ${{github.ref}}, is trigger by ${{github.event}} event"
+            - name: checkout
+              uses: actions/checkout@v4
+            - name: list files
+              run: ls ${{github.workspace}}
