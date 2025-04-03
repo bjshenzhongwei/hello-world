@@ -1,1 +1,1 @@
-thiis repositorry contains code of hello word about eveny thing!
+thiis repositorry covntains code of hello word about eveny thing!
