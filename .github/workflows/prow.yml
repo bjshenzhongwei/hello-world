@@ -1,4 +1,5 @@
 name: "Handle prow slash commands"
+run-name: "Handle ${{github.triggering_actor}}'s comment" 
 on:
   issue_comment:
     types: [created]
