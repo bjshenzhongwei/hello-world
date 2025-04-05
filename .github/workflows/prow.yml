@@ -20,4 +20,5 @@ jobs:
           prow-commands: |
             /approve
             /lgtm
+          jobs: "lgtm"
           github-token: "${{ secrets.GITHUB_TOKEN }}"
